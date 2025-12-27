@@ -1,0 +1,13 @@
+[user]
+    name = Pablo Bergonzi
+    email = pablobergonzi@gmail.com
+    signingkey = 7063AD264BAF53F8
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
+
+[includeIf "gitdir:~/Projects/"]
+    path = ~/.gitconfig-work

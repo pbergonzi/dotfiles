@@ -1,0 +1,10 @@
+[user]
+    name = Pablo Bergonzi
+    email = pablo@metodia.ar
+    signingkey = AFE190CA24AEDD93
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
