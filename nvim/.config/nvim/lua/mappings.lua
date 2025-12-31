@@ -57,6 +57,10 @@ map("n", "<leader>fm", function()
   vim.lsp.buf.format { async = true }
 end, { desc = "LSP Format buffer" })
 
+-- window commands
+-- map("n", "<leader>we", "<C-w>|", { desc = "Window Zoom In - Horizontal" })
+-- map("n", "<leader>wo", "<Cmd>wincmd=<CR>", { desc = "Window Restore size - Horizontal" })
+
 -- conform (ruff)
 map("n", "<leader>cf", function()
   require("conform").format { lsp_fallback = true }
